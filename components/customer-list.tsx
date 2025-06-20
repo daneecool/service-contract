@@ -129,12 +129,12 @@ export function CustomerList() {
                   <TableCell>{equipmentCounts[customer.id] || 0}</TableCell>
                   <TableCell>
                     <div className="flex space-x-2">
-                      <Button size="sm" variant="outline">
+                      {/* <Button size="sm" variant="outline">
                         <Eye className="w-4 h-4" />
                       </Button>
                       <Button size="sm" variant="outline">
                         <Edit className="w-4 h-4" />
-                      </Button>
+                      </Button> */}
                       <Button size="sm" variant="outline" onClick={() => handleDelete(customer.id)}>
                         <Trash2 className="w-4 h-4" />
                       </Button>

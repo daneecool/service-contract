@@ -1,8 +1,2 @@
-<<<<<<< HEAD
 node_modules
 .next/
-=======
-node_modules
-.next/
-pnpm-lock.yaml 
->>>>>>> Save local changes
